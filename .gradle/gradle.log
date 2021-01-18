@@ -1,0 +1,367 @@
+java.net.UnknownHostException: launchermeta.mojang.comjava.net.UnknownHostException: launchermeta.mojang.com
+
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+
+	at java.net.Socket.connect(Socket.java:607)	at java.net.Socket.connect(Socket.java:607)
+
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284)	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284)
+
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+
+	at net.minecraftforge.gradle.common.BasePlugin.getWithEtag(BasePlugin.java:722)	at net.minecraftforge.gradle.common.BasePlugin.getWithEtag(BasePlugin.java:722)
+
+	at net.minecraftforge.gradle.common.BasePlugin.getWithEtag(BasePlugin.java:683)	at net.minecraftforge.gradle.common.BasePlugin.getWithEtag(BasePlugin.java:683)
+
+	at net.minecraftforge.gradle.common.BasePlugin.getRemoteJsons(BasePlugin.java:231)	at net.minecraftforge.gradle.common.BasePlugin.getRemoteJsons(BasePlugin.java:231)
+
+	at net.minecraftforge.gradle.common.BasePlugin.apply(BasePlugin.java:181)	at net.minecraftforge.gradle.common.BasePlugin.apply(BasePlugin.java:181)
+
+	at net.minecraftforge.gradle.common.BasePlugin.apply(BasePlugin.java:90)	at net.minecraftforge.gradle.common.BasePlugin.apply(BasePlugin.java:90)
+
+	at org.gradle.api.internal.plugins.ImperativeOnlyPluginApplicator.applyImperative(ImperativeOnlyPluginApplicator.java:35)	at org.gradle.api.internal.plugins.ImperativeOnlyPluginApplicator.applyImperative(ImperativeOnlyPluginApplicator.java:35)
+
+	at org.gradle.api.internal.plugins.RuleBasedPluginApplicator.applyImperative(RuleBasedPluginApplicator.java:43)	at org.gradle.api.internal.plugins.RuleBasedPluginApplicator.applyImperative(RuleBasedPluginApplicator.java:43)
+
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:139)	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:139)
+
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:112)	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:112)
+
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:113)	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:113)
+
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:36)	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:36)
+
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:80)	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:80)
+
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:136)	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:136)
+
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
+
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
+
+	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
+
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+
+	at build_9ugmdgfebv2uestamhkbkmo3o.run(C:\Users\HXYP\Desktop\forge-1.12.2-14.23.5.2836-mdk\build.gradle:10)	at build_9ugmdgfebv2uestamhkbkmo3o.run(C:\Users\HXYP\Desktop\forge-1.12.2-14.23.5.2836-mdk\build.gradle:10)
+
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:177)	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:177)
+
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:182)	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:182)
+
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:573)	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:573)
+
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:125)	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:125)
+
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:38)	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:38)
+
+	at org.gradle.initialization.DefaultGradleLauncher$2.run(DefaultGradleLauncher.java:124)	at org.gradle.initialization.DefaultGradleLauncher$2.run(DefaultGradleLauncher.java:124)
+
+	at org.gradle.internal.Factories$1.create(Factories.java:22)	at org.gradle.internal.Factories$1.create(Factories.java:22)
+
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:121)	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:121)
+
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+
+	at org.gradle.tooling.internal.provider.runner.BuildModelActionRunner.run(BuildModelActionRunner.java:46)	at org.gradle.tooling.internal.provider.runner.BuildModelActionRunner.run(BuildModelActionRunner.java:46)
+
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+
+	at org.gradle.tooling.internal.provider.runner.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:58)	at org.gradle.tooling.internal.provider.runner.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:58)
+
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:82)	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:82)
+
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:59)	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:59)
+
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:49)	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:49)
+
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+
+	at org.gradle.util.Swapper.swap(Swapper.java:38)	at org.gradle.util.Swapper.swap(Swapper.java:38)
+
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+
+	at org.gradle.launcher.daemon.server.exec.HintGCAfterBuild.execute(HintGCAfterBuild.java:44)	at org.gradle.launcher.daemon.server.exec.HintGCAfterBuild.execute(HintGCAfterBuild.java:44)
+
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:240)	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:240)
+
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+
+	at java.lang.Thread.run(Thread.java:748)	at java.lang.Thread.run(Thread.java:748)
+
+This mapping 'stable_39' was designed for MC 1.12! Use at your own peril.This mapping 'stable_39' was designed for MC 1.12! Use at your own peril.
+
+#################################################
+         ForgeGradle 2.3-SNAPSHOT-6084129e        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+                 Powered by MCP                  
+             http://modcoderpack.com             
+     by: Searge, ProfMobius, R4wk, ZeuX          
+     Fesh0r, IngisKahn, bspkrs, LexManos         
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar UP-TO-DATE
+:getVersionJsonlaunchermeta.mojang.com
+
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndexlaunchermeta.mojang.com
+ UP-TO-DATE
+:getAssets
+Current status: 495/1305   37%
+Current status: 1066/1305   81%
+:makeStart
+:runClient
+[11:50:34] [main/INFO] [GradleStart]: Extra: []
+[11:50:34] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/HXYP/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[11:50:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:50:34] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:50:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:50:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:50:35] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2836 for Minecraft 1.12.2 loading
+[11:50:35] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Windows 10:amd64:10.0, installed at C:\Users\HXYP\.jdks\corretto-1.8.0_275\jre
+[11:50:35] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[11:50:35] [main/ERROR] [FML]: Full: C:\Users\HXYP\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[11:50:35] [main/ERROR] [FML]: Trimmed: c:/users/hxyp/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[11:50:35] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[11:50:35] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+2021-01-18 11:50:35,905 main WARN Disabling terminal, you're running in an unsupported environment.
+[11:50:35] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[11:50:35] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[11:50:35] [main/INFO] [FML]: Searching C:\Users\HXYP\Desktop\forge-1.12.2-14.23.5.2836-mdk\run\.\mods for mods
+[11:50:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:50:35] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[11:50:35] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[11:50:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:50:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:50:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:50:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:50:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:50:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:50:36] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[11:50:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:50:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:50:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:50:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:50:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:50:36] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[11:50:37] [Client thread/INFO] [minecraft/Minecraft]: Setting user: Player937
+[11:50:39] [Client thread/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[11:50:39] [Client thread/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
+[11:50:39] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_275, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 642150600 bytes (612 MB) / 764411904 bytes (729 MB) up to 7585398784 bytes (7234 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 27.20.100.8280' Renderer: 'Intel(R) UHD Graphics 630'
+[11:50:39] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2836 Initialized
+[11:50:39] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[11:50:40] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[11:50:40] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[11:50:40] [Client thread/INFO] [FML]: Searching C:\Users\HXYP\Desktop\forge-1.12.2-14.23.5.2836-mdk\run\.\mods for mods
+[11:50:41] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[11:50:41] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, theskyisland] at CLIENT
+[11:50:41] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, theskyisland] at SERVER
+[11:50:41] [Client thread/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Island
+[11:50:41] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[11:50:41] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[11:50:41] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[11:50:41] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[11:50:42] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[11:50:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[11:50:42] [Client thread/INFO] [FML]: Applying holder lookups
+[11:50:42] [Client thread/INFO] [FML]: Holder lookups applied
+[11:50:42] [Client thread/INFO] [FML]: Applying holder lookups
+[11:50:42] [Client thread/INFO] [FML]: Holder lookups applied
+[11:50:42] [Client thread/INFO] [FML]: Applying holder lookups
+[11:50:42] [Client thread/INFO] [FML]: Holder lookups applied
+[11:50:42] [Client thread/INFO] [FML]: Applying holder lookups
+[11:50:42] [Client thread/INFO] [FML]: Holder lookups applied
+[11:50:42] [Client thread/INFO] [FML]: Injecting itemstacks
+[11:50:42] [Client thread/INFO] [FML]: Itemstack injection complete
+[11:50:42] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 51896800 nanos
+[11:50:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854
+[11:50:43] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+[11:50:43] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+[11:50:43] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:50:44] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
+[11:50:44] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+[11:50:46] [Client thread/INFO] [FML]: Max texture size: 16384
+[11:50:46] [Client thread/INFO] [minecraft/TextureMap]: Created: 512x512 textures-atlas
+[11:50:47] [Client thread/INFO] [FML]: Applying holder lookups
+[11:50:47] [Client thread/INFO] [FML]: Holder lookups applied
+[11:50:47] [Client thread/INFO] [FML]: Injecting itemstacks
+[11:50:47] [Client thread/INFO] [FML]: Itemstack injection complete
+[11:50:47] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[11:50:47] [Client thread/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[11:50:47] [Client thread/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+[11:50:50] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[11:50:52] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[11:50:52] [Server thread/INFO] [minecraft/IntegratedServer]: Generating keypair
+[11:50:52] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[11:50:52] [Server thread/INFO] [FML]: Applying holder lookups
+[11:50:52] [Server thread/INFO] [FML]: Holder lookups applied
+[11:50:52] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@58f86598)
+[11:50:52] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 488 advancements
+[11:50:52] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@58f86598)
+[11:50:52] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@58f86598)
+[11:50:52] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
+[11:50:53] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing spawn area: 94%
+[11:50:54] [Server thread/INFO] [FML]: Unloading dimension -1
+[11:50:54] [Server thread/INFO] [FML]: Unloading dimension 1
+[11:50:54] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 12, from 10
+[11:50:56] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[11:50:56] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[11:50:56] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2836,theskyisland@0.0.0,mcp@9.42
+[11:50:56] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[11:50:56] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[11:50:56] [Server thread/INFO] [minecraft/PlayerList]: Player937[local:E:b6e35e7a] logged in with entity id 299 at (-0.39226041559248914, 64.0, 237.88315236465584)
+[11:50:56] [Server thread/INFO] [minecraft/MinecraftServer]: Player937 joined the game
+[11:50:57] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[11:50:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[11:52:36] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[11:52:36] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[11:52:37] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[11:52:37] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[11:52:37] [Server thread/INFO] [minecraft/NetHandlerPlayServer]: Player937 lost connection: Disconnected
+[11:52:37] [Server thread/INFO] [minecraft/MinecraftServer]: Player937 left the game
+[11:52:37] [Server thread/INFO] [minecraft/NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[11:52:37] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[11:52:37] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[11:52:37] [Server thread/INFO] [FML]: Unloading dimension 0
+[11:52:37] [Server thread/INFO] [FML]: Applying holder lookups
+[11:52:37] [Server thread/INFO] [FML]: Holder lookups applied
+[11:52:39] [Client thread/INFO] [minecraft/Minecraft]: Stopping!
+[11:52:39] [Client thread/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
+[11:52:40] [Client thread/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
+
+BUILD SUCCESSFUL
+
+Total time: 2 mins 48.859 secs

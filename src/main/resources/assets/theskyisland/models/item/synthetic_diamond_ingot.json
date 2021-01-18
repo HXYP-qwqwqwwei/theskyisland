@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures":
+  {
+    "layer0": "theskyisland:items/synthetic_diamond_ingot_texture"
+  }
+}

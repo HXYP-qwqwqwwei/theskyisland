@@ -1,6 +1,7 @@
-package theskyisland.tsi.model;
+package theskyisland.tsi.modelmapper.item;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.Mod;
@@ -11,15 +12,16 @@ import theskyisland.tsi.util.Reference;
 
 import java.util.Objects;
 
+import static theskyisland.tsi.item.ItemInitializer.synthetic_diamond_ingot;
+
 @Mod.EventBusSubscriber(value = Side.CLIENT, modid = Reference.MODID)
-public class ModelMapper
+public class ItemModelMapper
 {
     @SubscribeEvent
     public static void onModelReg(ModelRegistryEvent event)
     {
-        ModelLoader.setCustomModelResourceLocation(ItemInitializer.myFirstItem,
-                0,
-                new ModelResourceLocation(Objects.requireNonNull(ItemInitializer.myFirstItem.getRegistryName()),
-                        "inventory"));
+        ModelLoader.setCustomModelResourceLocation(
+                synthetic_diamond_ingot, 0,
+                new ModelResourceLocation(Objects.requireNonNull(synthetic_diamond_ingot.getRegistryName()), "inventory"));
     }
 }

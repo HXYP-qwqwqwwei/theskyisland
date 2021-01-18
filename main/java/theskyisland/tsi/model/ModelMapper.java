@@ -1,4 +1,4 @@
-package theskyisland.tsi.model;
+package theskyisland.tsi.modelmapper;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraftforge.client.event.ModelRegistryEvent;

@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "theisland",
+        "name": "The Island",
+        "description": "Not yet",
+        "version": ${version},
+        "mcversion": "${mcversion}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["HXYP"],
+        "credits": "test",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]

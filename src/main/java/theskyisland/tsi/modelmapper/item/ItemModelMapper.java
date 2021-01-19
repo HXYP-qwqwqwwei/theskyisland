@@ -7,6 +7,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
+import theskyisland.tsi.TheSkyIsland;
 import theskyisland.tsi.item.ItemInitializer;
 import theskyisland.tsi.util.Reference;
 
@@ -20,8 +21,6 @@ public class ItemModelMapper
     @SubscribeEvent
     public static void onModelReg(ModelRegistryEvent event)
     {
-        ModelLoader.setCustomModelResourceLocation(
-                synthetic_diamond_ingot, 0,
-                new ModelResourceLocation(Objects.requireNonNull(synthetic_diamond_ingot.getRegistryName()), "inventory"));
+        TheSkyIsland.proxy.modelRegistry(synthetic_diamond_ingot, 0, "inventory");
     }
 }

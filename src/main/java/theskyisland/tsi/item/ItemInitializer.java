@@ -18,43 +18,19 @@ public final class ItemInitializer extends Item
     public static Item small_silicon_crystal;
     public static Item nickel_ingot;
     public static Item artificial_ruby;
-    public static TsiItemPickaxe test;
+    public static TsiItemPickaxe tsipickaxe;
     @SubscribeEvent
     public static void registerItem(RegistryEvent.Register<Item> event)
     {
-        event.getRegistry().register(
-                synthetic_diamond_ingot = new Item()
-                        .setCreativeTab(CreativeTabs.MATERIALS)
-                        .setRegistryName("theskyisland:synthetic_diamond_ingot")
-                        .setTranslationKey("synthetic_diamond_ingot"));
-        event.getRegistry().register(
-                quartz_crystal = new Item()
-                        .setCreativeTab(CreativeTabs.MATERIALS)
-                        .setRegistryName("theskyisland:quartz_crystal")
-                        .setTranslationKey("quartz_crystal"));
-        event.getRegistry().register(
-                monocrystalline_silicon = new Item()
-                        .setCreativeTab(CreativeTabs.MATERIALS)
-                        .setRegistryName("theskyisland:monocrystalline_silicon")
-                        .setTranslationKey("monocrystalline_silicon"));
-        event.getRegistry().register(
-                small_silicon_crystal = new Item()
-                        .setCreativeTab(CreativeTabs.MATERIALS)
-                        .setRegistryName("theskyisland:small_silicon_crystal")
-                        .setTranslationKey("small_silicon_crystal"));
-        event.getRegistry().register(
-                nickel_ingot = new Item()
-                        .setCreativeTab(CreativeTabs.MATERIALS)
-                        .setRegistryName("theskyisland:nickel_ingot")
-                        .setTranslationKey("nickel_ingot"));
-        event.getRegistry().register(
-                artificial_ruby = new Item()
-                        .setCreativeTab(CreativeTabs.MATERIALS)
-                        .setRegistryName("theskyisland:artificial_ruby")
-                        .setTranslationKey("artificial_ruby"));
-        event.getRegistry().register(registryItem(new TsiItemPickaxe(ToolMaterial.DIAMOND), "tsipickaxe"));
+        event.getRegistry().register(synthetic_diamond_ingot = registryItem(new Item(), CreativeTabs.MATERIALS, "synthetic_diamond_ingot"));
+        event.getRegistry().register(quartz_crystal = registryItem(new Item(), CreativeTabs.MATERIALS, "quartz_crystal"));
+        event.getRegistry().register(monocrystalline_silicon = registryItem(new Item(), CreativeTabs.MATERIALS, "monocrystalline_silicon"));
+        event.getRegistry().register(small_silicon_crystal = registryItem(new Item(), CreativeTabs.MATERIALS, "small_silicon_crystal"));
+        event.getRegistry().register(nickel_ingot = registryItem(new Item(), CreativeTabs.MATERIALS, "nickel_ingot"));
+        event.getRegistry().register(artificial_ruby = registryItem(new Item(), CreativeTabs.MATERIALS, "artificial_ruby"));
+        event.getRegistry().register(tsipickaxe = registryItem(new TsiItemPickaxe(ToolMaterial.DIAMOND), CreativeTabs.TOOLS, "tsipickaxe"));
     }
-    private static <T extends Item> T registryItem(T item, String name)
+    private static <T extends Item> T registryItem(T item, CreativeTabs tab, String name)
     {
         item.setCreativeTab(CreativeTabs.TOOLS);
         item.setRegistryName("theskyisland:" + name);

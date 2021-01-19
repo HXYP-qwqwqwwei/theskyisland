@@ -14,6 +14,7 @@ import theskyisland.tsi.util.Reference;
 import java.util.Objects;
 
 import static theskyisland.tsi.item.ItemInitializer.synthetic_diamond_ingot;
+import static theskyisland.tsi.item.ItemInitializer.tsipickaxe;
 
 @Mod.EventBusSubscriber(value = Side.CLIENT, modid = Reference.MODID)
 public class ItemModelMapper
@@ -22,5 +23,6 @@ public class ItemModelMapper
     public static void onModelReg(ModelRegistryEvent event)
     {
         TheSkyIsland.proxy.modelRegistry(synthetic_diamond_ingot, 0, "inventory");
+        TheSkyIsland.proxy.modelRegistry(tsipickaxe, 0, "inventory");
     }
 }

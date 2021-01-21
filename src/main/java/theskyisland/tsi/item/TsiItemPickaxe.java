@@ -15,7 +15,7 @@ public class TsiItemPickaxe extends TsiItemTool
 
     public TsiItemPickaxe(ToolCoreMaterial coreMaterialIn, ToolEdgeMaterial edgeMaterialIn)
     {
-        super(coreMaterialIn, edgeMaterialIn, 1.0F, -2.8F, EFFECTIVE_ON);
+        super( 1.0F, -2.8F, coreMaterialIn, edgeMaterialIn, EFFECTIVE_ON);
     }
 
     @Override
@@ -25,7 +25,7 @@ public class TsiItemPickaxe extends TsiItemTool
 
         if (block == Blocks.OBSIDIAN)
         {
-            return this.edgeMaterial.getHarvestLevel() == 3;
+            return this.edgeMaterial.getHarvestLevel() >= 3;
         }
         else if (block != Blocks.DIAMOND_BLOCK && block != Blocks.DIAMOND_ORE)
         {

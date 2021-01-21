@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "theskyisland:items/tsipickaxe"
+    "layer0": "theskyisland:items/tsipickaxe_texture"
   }
 }
